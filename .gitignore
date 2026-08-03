@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Uploaded PDFs
+uploads/
+
+# VS Code
+.vscode/
+
+# FAISS
+*.faiss
+*.pkl
