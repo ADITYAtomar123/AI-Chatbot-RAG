@@ -1,19 +1,33 @@
-# Virtual Environment
-venv/
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Environment Variables
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment variables
 .env
 
-# Uploaded PDFs
+# Secrets
+.streamlit/secrets.toml
+
+# Database
+chatbot.db
+*.db
+
+# Uploaded files
 uploads/
 
-# VS Code
-.vscode/
+# Temporary files
+*.tmp
+*.log
 
-# FAISS
-*.faiss
-*.pkl
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
