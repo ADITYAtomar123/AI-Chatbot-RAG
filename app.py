@@ -637,13 +637,11 @@ with st.sidebar:
     st.divider()
 
 
-    if st.button(
-        "🚪 Logout",
-        use_container_width=True,
-        key="logout_button",
-    ):
-
-        cookie_manager.delete("logged_in")
+    if st.button("Logout"):
+        try:
+            cookie_manager.delete("logged_in")
+        except KeyError:
+            pass    
 
         st.session_state["logged_in"] = False
         st.session_state["conversation_id"] = None
@@ -652,7 +650,6 @@ with st.sidebar:
         st.session_state["csv_context"] = None
         st.session_state["excel_context"] = None
         st.session_state["docx_context"] = None
-        st.session_state["chart_df"] = None
 
         st.rerun()
 
