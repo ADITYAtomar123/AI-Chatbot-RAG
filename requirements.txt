@@ -9,6 +9,7 @@ pypdf
 langchain
 langchain-community
 langchain-groq
+langchain-huggingface
 faiss-cpu
 groq
 requests
