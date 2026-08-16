@@ -18,3 +18,4 @@ SpeechRecognition
 streamlit-mic-recorder
 python-dotenv
 google-genai
+duckduckgo-search
