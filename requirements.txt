@@ -16,3 +16,4 @@ beautifulsoup4
 SpeechRecognition
 streamlit-mic-recorder
 python-dotenv
+google-genai
