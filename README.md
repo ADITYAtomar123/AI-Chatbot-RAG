@@ -4,7 +4,7 @@ An intelligent AI-powered chatbot built with Python and Streamlit that supports 
 
 ## 🚀 Live Demo
 
-[Open AI Chatbot](https://ai-chatbot-rag-uwslkceqftewm8wmbpkxal.streamlit.app/)
+[Open AI Chatbot](https://aditya-ai-chatbot.streamlit.app/)
 ## ✨ Features
 
 ### 💬 AI Chat
